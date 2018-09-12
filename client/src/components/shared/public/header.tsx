@@ -8,7 +8,7 @@ export default class Header extends React.Component  {
 		<header id='header'>
 			<div id='logo-group'>
 
-				<span id='logo'> <img src='img/logo.png' alt='SmartAdmin'/> </span>
+				<span id='logo'> <img src='img/logo.png' alt='Karluks'/> </span>
 
 				
 			</div>
@@ -24,7 +24,7 @@ export default class Header extends React.Component  {
 			
 
 				<div id='logout' className='btn-header transparent pull-right'>
-					<span> <a href='login.html' title='Sign Out' data-action='userLogout' data-logout-msg='You can improve your security further after logging out by closing this opened browser'><i className='fa fa-sign-out'></i></a> </span>
+					<span> <a href='login.html' title='Login' data-action='login' data-logout-msg='You can improve your security further after logging out by closing this opened browser'><i className='fa fa-sign-in'></i></a> </span>
 				</div>
 
 				
